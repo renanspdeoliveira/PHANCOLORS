@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header com gradiente pastel */
+header {
+    background: linear-gradient(to right, #a8c0ff, #ffb3d9, #ffdfba);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Menu de navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-png {
+    width: 15%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 15px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Estilo do conteúdo */
+.content {
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+.carrosel-menu {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    scroll-behavior: smooth;
+    gap: 10%;
+}
+
+.carrosel-menu::-webkit-scrollbar {
+    height: 8px;
+}
+
+.carrosel-menu::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.item {
+    flex: 0 0 auto;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.item img {
+    width: 200%;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item button {
+    background-color: #ffb6c1;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    padding: 20px;
+}
+
+.item button:hover {
+
+    background-color: #ffa3b1;
+}
+
+
+
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
